@@ -12,7 +12,7 @@ from tensorflow.keras.models import Sequential
 from sklearn.preprocessing import StandardScaler
 
 # get the data
-data = pd.read_csv("/Users/elliheyes/Documents/PhD/Data/Manifolds/manifold_data.csv",names=["word1","word2","connected","similarity"])
+data = pd.read_csv("manifold_data.csv",names=["word1","word2","connected","similarity"])
 
 # get the list of input and output data
 word1, word2 = [], []
